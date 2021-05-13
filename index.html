@@ -6,7 +6,8 @@
     Changes
     [2021-05-13] 
     * HTML page look similar to official albiononline.com website
-    * added weapons from the mage tree
+    * added weapons from the mage,hunter and warrior tree
+    * item slots now display the item title in a tooltip
     * made single item slots rerollable by clicking a slot
 -->
 <html>
@@ -1022,6 +1023,329 @@ itemdb = [
       name: "MAIN_HOLYSTAFF_AVALON",
       twohand: false
     },
+    // *****************************************************************************
+    // * weapon - hunter/Quarterstaff 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Quarterstaff",
+      name: "2H_QUARTERSTAFF"
+    },
+    { slot:"weapon", 
+      title: "Iron-clad Staff",
+      name: "2H_IRONCLADEDSTAFF"
+    },
+    { slot:"weapon", 
+      title: "Double Bladed Staff",
+      name: "2H_DOUBLEBLADEDSTAFF",
+    },
+    { slot:"weapon", 
+      title: "Black Monk Stave",
+      name: "2H_COMBATSTAFF_MORGANA"
+    },
+    { slot:"weapon", 
+      title: "Soulscythe",
+      name: "2H_TWINSCYTHE_HELL"
+    },
+    { slot:"weapon", 
+      title: "Staff of Balance",
+      name: "2H_ROCKSTAFF_KEEPER"
+    },
+    { slot:"weapon", 
+      title: "Grailseeker",
+      name: "2H_QUARTERSTAFF_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - hunter/dagger 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Dagger",
+      name: "MAIN_DAGGER",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Dagger Pair",
+      name: "2H_DAGGERPAIR"
+    },
+    { slot:"weapon", 
+      title: "Claws",
+      name: "2H_CLAWPAIR",
+    },
+    { slot:"weapon", 
+      title: "Bloodletter",
+      name: "MAIN_RAPIER_MORGANA",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Black Hands",
+      name: "2H_IRONGAUNTLETS_HELL"
+    },
+    { slot:"weapon", 
+      title: "Deathgivers",
+      name: "2H_DUALSICKLE_UNDEAD"
+    },
+    { slot:"weapon", 
+      title: "Bridled Fury",
+      name: "2H_DAGGER_KATAR_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - hunter/nature 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Nature Staff",
+      name: "MAIN_NATURESTAFF",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Wild Staff",
+      name: "2H_WILDSTAFF"
+    },
+    { slot:"weapon", 
+      title: "Druidic Staff",
+      name: "MAIN_NATURESTAFF_KEEPER",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Blight Staff",
+      name: "2H_NATURESTAFF_HELL",
+    },
+    { slot:"weapon", 
+      title: "Rampant Staff",
+      name: "2H_NATURESTAFF_KEEPER"
+    },
+    { slot:"weapon", 
+      title: "Ironroot Staff",
+      name: "MAIN_NATURESTAFF_AVALON",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Great Nature Staff",
+      name: "2H_NATURESTAFF"
+    },
+    // *****************************************************************************
+    // * weapon - hunter/spear 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Spear",
+      name: "MAIN_SPEAR",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Pike",
+      name: "2H_SPEAR"
+    },
+    { slot:"weapon", 
+      title: "Glaive",
+      name: "2H_GLAIVE"
+    },
+    { slot:"weapon", 
+      title: "Heron Spear",
+      name: "MAIN_SPEAR_KEEPER",
+      twohand: false,
+    },
+    { slot:"weapon", 
+      title: "Spirithunter",
+      name: "2H_HARPOON_HELL"
+    },
+    { slot:"weapon", 
+      title: "Trinity Spear",
+      name: "2H_TRIDENT_UNDEAD"
+    },
+    { slot:"weapon", 
+      title: "Daybreaker",
+      name: "MAIN_SPEAR_LANCE_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - hunter/bow 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Bow",
+      name: "2H_BOW"
+    },
+    { slot:"weapon", 
+      title: "Warbow",
+      name: "2H_WARBOW"
+    },
+    { slot:"weapon", 
+      title: "Longbow",
+      name: "2H_LONGBOW"
+    },
+    { slot:"weapon", 
+      title: "Whispering Bow",
+      name: "2H_LONGBOW_UNDEAD"
+    },
+    { slot:"weapon", 
+      title: "Wailing Bow",
+      name: "2H_BOW_HELL"
+    },
+    { slot:"weapon", 
+      title: "Bow of Badon",
+      name: "2H_BOW_KEEPER"
+    },
+    { slot:"weapon", 
+      title: "Mistpiercer",
+      name: "2H_BOW_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - warrior/xbow 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Crossbow",
+      name: "2H_CROSSBOW"
+    },
+    { slot:"weapon", 
+      title: "Heavy Crossbow",
+      name: "2H_CROSSBOWLARGE"
+    },
+    { slot:"weapon", 
+      title: "Light Crossbow",
+      name: "MAIN_1HCROSSBOW",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Weeping Repeater",
+      name: "2H_REPEATINGCROSSBOW_UNDEAD",
+    },
+    { slot:"weapon", 
+      title: "Boltcasters",
+      name: "2H_DUALCROSSBOW_HELL"
+    },
+    { slot:"weapon", 
+      title: "Siegebow",
+      name: "2H_CROSSBOWLARGE_MORGANA"
+    },
+    { slot:"weapon", 
+      title: "Energy Shaper",
+      name: "2H_CROSSBOW_CANNON_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - warrior/hammer 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Hammer",
+      name: "MAIN_HAMMER",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Polehammer",
+      name: "2H_POLEHAMMER"
+    },
+    { slot:"weapon", 
+      title: "Great Hammer",
+      name: "2H_HAMMER"
+    },
+    { slot:"weapon", 
+      title: "Tombhammer",
+      name: "2H_HAMMER_UNDEAD",
+    },
+    { slot:"weapon", 
+      title: "Forge Hammers",
+      name: "2H_DUALHAMMER_HELL"
+    },
+    { slot:"weapon", 
+      title: "Grovekeeper",
+      name: "2H_RAM_KEEPER"
+    },
+    { slot:"weapon", 
+      title: "Hand of Justice",
+      name: "2H_HAMMER_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - warrior/mace 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Mace",
+      name: "MAIN_MACE",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Heavy Mace",
+      name: "2H_MACE"
+    },
+    { slot:"weapon", 
+      title: "Morning Star",
+      name: "2H_FLAIL"
+    },
+    { slot:"weapon", 
+      title: "Bedrock Mace",
+      name: "MAIN_ROCKMACE_KEEPER",
+    },
+    { slot:"weapon", 
+      title: "Incubus Mace",
+      name: "MAIN_MACE_HELL",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Camlann Mace",
+      name: "2H_MACE_MORGANA"
+    },
+    { slot:"weapon", 
+      title: "Oathkeepers",
+      name: "2H_DUALMACE_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - warrior/axe 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Battleaxe",
+      name: "MAIN_AXE",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Greataxe",
+      name: "2H_AXE"
+    },
+    { slot:"weapon", 
+      title: "Halberd",
+      name: "2H_HALBERD"
+    },
+    { slot:"weapon", 
+      title: "Carrioncaller",
+      name: "2H_HALBERD_MORGANA",
+    },
+    { slot:"weapon", 
+      title: "Infernal Scythe",
+      name: "2H_SCYTHE_HELL"
+    },
+    { slot:"weapon", 
+      title: "Bear Paws",
+      name: "2H_DUALAXE_KEEPER"
+    },
+    { slot:"weapon", 
+      title: "Realmbreaker",
+      name: "2H_AXE_AVALON"
+    },
+    // *****************************************************************************
+    // * weapon - warrior/sword 
+    // *****************************************************************************
+    { slot:"weapon", 
+      title: "Broadsword",
+      name: "MAIN_SWORD",
+      twohand: false
+    },
+    { slot:"weapon", 
+      title: "Claymore",
+      name: "2H_CLAYMORE"
+    },
+    { slot:"weapon", 
+      title: "Dual Swords",
+      name: "2H_DUALSWORD"
+    },
+    { slot:"weapon", 
+      title: "Clarent Blade",
+      name: "MAIN_SCIMITAR_MORGANA",
+    },
+    { slot:"weapon", 
+      title: "Carving Sword",
+      name: "2H_CLEAVER_HELL"
+    },
+    { slot:"weapon", 
+      title: "Galatine Pair",
+      name: "2H_DUALSCIMITAR_UNDEAD"
+    },
+    { slot:"weapon", 
+      title: "Kingmaker",
+      name: "2H_CLAYMORE_AVALON"
+    },
 ];
 
 function getImageURL(name) {
@@ -1069,12 +1393,15 @@ function setItem(slot, item) {
     }    
     if (item == null) {
         img.src = "";
+        img.title = "";
     } else {
         if (item.exactname == true) {
             img.src = getImageURL(item.name);
         } else {
             img.src = getImageURL("T8_" + item.name);
         }
+        
+        img.title = item.title;
     }
 }
 
